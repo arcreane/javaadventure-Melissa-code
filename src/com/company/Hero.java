@@ -3,8 +3,14 @@ package com.company;
 public class Hero {
 
     // Attributes :
-    // two weapons
+    // weapons
+    String weaponBarbarian = "Sword";
+    String weaponWizard = "Water_Flask";
+
     // life points
+    int lifePoints;
+    int DamagePoints;
+
     // attack points
 
     // Behaviour :
@@ -13,5 +19,6 @@ public class Hero {
     // Choose the right weapon
     // reach the treasure
     // loose life points
+    // die
 
 }

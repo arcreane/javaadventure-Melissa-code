@@ -2,5 +2,8 @@ package com.company;
 
 public class Fight {
 
-    // Damages
+    // Paralysis
+    // Display Damages
+    //
+
 }

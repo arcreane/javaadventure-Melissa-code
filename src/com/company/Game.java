@@ -2,12 +2,18 @@ package com.company;
 
 public class Game {
 
-    // start new game
+    // startNewGame();
 
     // display game 5 rooms
 
     // create monster randomly
     // display monster
+
+    // Get user input the hero chooses his weapon
+    // if (Barbarian) {
+    // System.out.println("Sword");}
+    // if (Wizard) {
+    // System.out.println("Sword");}
 
     // create treasure
 
@@ -15,5 +21,8 @@ public class Game {
     // and if hero reached the treasure
 
     // move the hero in the game
+
+    // quit();
+    // gameOver();
 
 }
