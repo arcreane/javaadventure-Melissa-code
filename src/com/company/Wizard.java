@@ -3,24 +3,24 @@ package com.company;
 public class Wizard {
 
     // attributes :
-    String name = "Wizard"
-    String weapon = "Thunderbolt";
-    int lifePoints = 200;
-    int damagePoints = 200;
-    int attackPoints = 200;
+    public static String name = "Wizard"
+    public static String weapon = "Thunderbolt";
+    public static int lifePoints = 200;
+    public static int damagePoints = 200;
+    public static int attackPoints = 200;
 
     // behaviour :
-    attackFirst() {
+    public static void attackFirst() {
         System.out.println();
         // Wizard's attackPoints == Hero's damagePoints
     }
 
     // after the first Wizard's attack
-    displayName(){
+    public static void displayName(){
         System.out.println(name);
     }
 
-    die (){
+    public static void die (){
         if (lifePoints == 0){
             System.out.println("The hero won and can go in the next room");
             // Hero can continue moving forward

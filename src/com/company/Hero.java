@@ -6,22 +6,22 @@ import org.w3c.dom.ls.LSOutput;
 public class Hero {
 
     // attributes :
-    String weaponBarbarian = "Sword";
-    String weaponWizard = "Water_Flask";
-    String[] monstersArray = new String["Barbarian","Wizard"];
-    int lifePoints = 200;
-    int damagePoints = 200;
-    int attackPoints = 200;
+    public static String weaponBarbarian = "Sword";
+    public static String weaponWizard = "Water_Flask";
+    public static String[] monstersArray = new String["Barbarian","Wizard"];
+    public static int lifePoints = 200;
+    public static int damagePoints = 200;
+    public static int attackPoints = 200;
 
 
     // Behaviour :
-    moveForward() {
+    public static void moveForward() {
         // if Barbarian dies || Wizard dies
         // Hero moves Forward in the next room
         System.out.println();
     }
 
-    AttackMonsters() {
+    public static void AttackMonsters() {
         if (displayName == Barbarian.name){
         System.out.println(weaponBarbarian);
         // and throw a Sword
@@ -31,17 +31,17 @@ public class Hero {
         // and Hero's attackPoints == Monster's damagePoints
     }
 
-    reachTreasure(){
-            // if Barbarian dies && Wizard dies
+    public static void reachTreasure(){
+        // if Barbarian dies & Wizard dies
         System.out.println("Congratulations, you win !");
         // stop the game and return to the Menu
         }
 
 
-    die() {
+    public static void die() {
         if (lifePoints == 0){
             System.out.println("You're dead");}
-        // and return to the Menu
+            // and return to the Menu
     }
 
 }

@@ -19,7 +19,7 @@ public class Main {
            System.out.println("    - q : Quit");
 
            Scanner scan = new Scanner(System.in);
-           String userChoice = scan.nextLine();*/
+           String userChoice = scan.nextLine();
 
            if (userChoice.equals("n")) {
                Game.startNewGame();
@@ -29,7 +29,7 @@ public class Main {
                System.out.println("Sorry I did not understand your choice");
            }
            System.out.println("Thank you for playing the game, see you soon");
-           
+
 
         }
 
