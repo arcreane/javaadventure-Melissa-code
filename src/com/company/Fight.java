@@ -4,6 +4,5 @@ public class Fight {
 
     // Paralysis
     // Display Damages
-    //
 
 }

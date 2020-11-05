@@ -1,28 +1,38 @@
 package com.company;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Game {
 
-    // startNewGame();
+    int [] rooms = new int [5];
 
-    // display game 5 rooms
+    startNewGame(){
+        System.out.println();
+    };
 
-    // create monster randomly
-    // display monster
+    displayGame(){
+        // create the treasure in the last room
+        // create monster randomly in each room
+        // display name  of monster
+    };
 
-    // Get user input the hero chooses his weapon
-    // if (Barbarian) {
-    // System.out.println("Sword");}
-    // if (Wizard) {
-    // System.out.println("Sword");}
+    GetUserInput(){
+        // the hero chooses his weapon
+    } ;
 
-    // create treasure
 
     // display if hero won after a fight
     // and if hero reached the treasure
 
     // move the hero in the game
 
-    // quit();
-    // gameOver();
+    quit(){
+        System.out.println();
+    };
+
+    gameOver(){
+        System.out.println();
+    };
 
 }
