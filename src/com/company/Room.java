@@ -2,13 +2,13 @@ package com.company;
 
 public class Room {
     //what is in the room
-    Barbarian barbarian;
+    Monster monster;
 
     Room(){
-        barbarian = new Barbarian();
+        monster = new Monster();
     }
 
     public void go(Hero hero){
-        barbarian.attack(hero);
+        monster.attack(hero);
     }
 }

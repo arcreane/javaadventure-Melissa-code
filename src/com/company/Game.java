@@ -7,7 +7,7 @@ import java.util.Random;
 public class Game {
 
     // public Scanner scanner = new Scanner();
-    
+
 
     /*
     public static void startNewGame(){

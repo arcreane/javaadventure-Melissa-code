@@ -7,12 +7,6 @@ public class Hero {
 
     public int lifePoints;
 
-    // attributes :
-    // public static String weaponBarbarian = "Sword";
-    // public static String weaponWizard = "Water_Flask";
-    // public static String[] monstersArray = new String["Barbarian","Wizard"];
-    // public static int lifePoints = 20;
-
     // constructor
     Hero(){
         lifePoints = 20;
@@ -24,6 +18,11 @@ public class Hero {
     }
 
 
+    // attributes :
+    // public static String weaponBarbarian = "Sword";
+    // public static String weaponWizard = "Water_Flask";
+    // public static String[] monstersArray = new String["Barbarian","Wizard"];
+    // public static int lifePoints = 20;
 
     // Behaviour :
     public static void moveForward() {
