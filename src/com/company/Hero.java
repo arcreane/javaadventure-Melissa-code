@@ -19,9 +19,11 @@ public class Hero {
     }
 
     //method
-    public void looseLifePoints(int){
+    public void looseLifePoints(int damagePoints){
         lifePoints -= damagePoints;
     }
+
+
 
     // Behaviour :
     public static void moveForward() {

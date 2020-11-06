@@ -2,9 +2,9 @@ package com.company;
 
 public class Room {
     //what is in the room
-    public Barbarian barbarian;
+    Barbarian barbarian;
 
-    public Room(){
+    Room(){
         barbarian = new Barbarian();
     }
 

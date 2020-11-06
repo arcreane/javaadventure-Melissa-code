@@ -2,6 +2,11 @@ package com.company;
 
 public class Wizard {
 
+
+
+
+
+
     // attributes :
     public static String name = "Wizard"
     public static String weapon = "Thunderbolt";

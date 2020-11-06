@@ -4,15 +4,19 @@ import java.util.Scanner;
 
 public class Main {
 
-   public static boolean keepPlaying = true;
-
+   // public static boolean keepPlaying = true;
 
    public static void main(String[] args) {
+        //displayMenu();
 
-        displayMenu();
+       Hero hero = new Hero();
+       Dungeon dungeon = new Dungeon();
+       dungeon.welcome(hero); // method in Dungeon
+
+       }
 
    }
-
+   /*
        public static void displayMenu(){
 
        while (keepPlaying) {
@@ -33,6 +37,6 @@ public class Main {
            System.out.println("Thank you for playing the game, see you soon");
         }
 
-   }
+   }*/
 
 }

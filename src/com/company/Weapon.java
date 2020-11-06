@@ -1,8 +1,8 @@
 package com.company;
 
 public class Weapon {
-    public int damagePoints;
-    Weapon flech;
+    int damagePoints;
+    Weapon arrow;
 
     Weapon(){
         damagePoints = 5;

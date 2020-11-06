@@ -6,20 +6,10 @@ import java.util.Random;
 
 public class Game {
 
-    public Scanner scanner = new Scanner();
+    // public Scanner scanner = new Scanner();
+    
 
-    public Hero hero = new Hero();
-    public Dungeon dungeon = new Dungeon();
-
-    public dungeon.welcome(hero);
-
-    public static void welcome(Hero hero){
-        for (i=0; i<rooms.length; i ++){
-            rooms[i].go(hero);
-        }
-    }
-
-
+    /*
     public static void startNewGame(){
         // display the game
         // create the treasure in the last room
@@ -39,7 +29,7 @@ public class Game {
         System.out.println();
         String userChoice = scanner.nextLine();
     } ;
-
+    */
 
 
 
