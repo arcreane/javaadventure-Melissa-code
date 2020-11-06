@@ -1,8 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
-import org.w3c.dom.ls.LSOutput;
-
 public class Hero {
 
     public int lifePoints;
@@ -17,12 +14,13 @@ public class Hero {
         lifePoints -= damagePoints;
     }
 
-
+    /*
     // attributes :
-    // public static String weaponBarbarian = "Sword";
-    // public static String weaponWizard = "Water_Flask";
-    // public static String[] monstersArray = new String["Barbarian","Wizard"];
-    // public static int lifePoints = 20;
+    public static String weaponBarbarian = "Sword";
+    public static String weaponWizard = "Water_Flask";
+    public static String[] monstersArray = new String["Barbarian","Wizard"];
+    public static int lifePoints = 20;
+
 
     // Behaviour :
     public static void moveForward() {
@@ -53,6 +51,6 @@ public class Hero {
             System.out.println("You're dead");}
             // and return to the Menu
     }
-
+*/
 
 }

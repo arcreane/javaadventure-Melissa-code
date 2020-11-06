@@ -2,6 +2,7 @@ package com.company;
 
 public class Barbarian {
 
+    /*
     // attributes :
     public static String name = "Barbarian";
     public static String weapon = "axe";
@@ -25,5 +26,5 @@ public class Barbarian {
             // Hero can continue moving forward
     }
 
-
+*/
 }

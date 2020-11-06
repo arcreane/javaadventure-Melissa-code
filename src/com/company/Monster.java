@@ -8,12 +8,12 @@ public class Monster {
     // constructor
     Monster(){
         lifePoints = 10;
-        weapon = new Weapon;
+        weapon = new Weapon();
     }
 
     // method
     public void attack(Hero hero){
-        hero.looseLifePoints(arrow.damagePoints);
+        hero.looseLifePoints(weapon.damagePoints);
     }
 
 

@@ -2,17 +2,11 @@ package com.company;
 
 public class Wizard {
 
-
-
-
-
-
+    /*
     // attributes :
-    public static String name = "Wizard"
+    public static String name = "Wizard";
     public static String weapon = "Thunderbolt";
     public static int lifePoints = 20;
-    public static int damagePoints = 20;
-    public static int attackPoints = 20;
 
     // behaviour :
     public static void attackFirst() {
@@ -31,4 +25,6 @@ public class Wizard {
             // Hero can continue moving forward
         }
     }
+
+     */
 }
