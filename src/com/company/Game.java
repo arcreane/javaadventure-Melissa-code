@@ -6,8 +6,19 @@ import java.util.Random;
 
 public class Game {
 
-    public static int [] rooms = new int [5];
-    public static Scanner scanner = new Scanner();
+    public Scanner scanner = new Scanner();
+
+    public Hero hero = new Hero();
+    public Dungeon dungeon = new Dungeon();
+
+    public dungeon.welcome(hero);
+
+    public static void welcome(Hero hero){
+        for (i=0; i<rooms.length; i ++){
+            rooms[i].go(hero);
+        }
+    }
+
 
     public static void startNewGame(){
         // display the game
@@ -24,7 +35,7 @@ public class Game {
     };
 
     public static void GetUserInput(){
-        // the hero chooses his weapon
+        // the hero chooses the right weapon
         System.out.println();
         String userChoice = scanner.nextLine();
     } ;

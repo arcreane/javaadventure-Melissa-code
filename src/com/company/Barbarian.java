@@ -2,12 +2,24 @@ package com.company;
 
 public class Barbarian {
 
+    public int lifePoints;
+    public Weapon weapon;
+
     // attributes :
-    public static String name = "Barbarian";
-    public static String weapon = "axe";
-    public static int lifePoints = 200;
-    public static int damagePoints = 200;
-    public static int attackPoints = 200;
+    // public static String name = "Barbarian";
+    // public static String weapon = "axe";
+
+    // constructor
+    public Barbarian(){
+        lifePoints = 10;
+        weapon = new Weapon;
+    }
+
+    // method
+    public void attack(Hero hero){
+        hero.looseLifePoints(flech.damagePoints);
+    }
+
 
     // behaviour :
     public static void attackFirst() {

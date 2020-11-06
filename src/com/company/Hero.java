@@ -5,18 +5,27 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Hero {
 
-    // attributes :
-    public static String weaponBarbarian = "Sword";
-    public static String weaponWizard = "Water_Flask";
-    public static String[] monstersArray = new String["Barbarian","Wizard"];
-    public static int lifePoints = 200;
-    public static int damagePoints = 200;
-    public static int attackPoints = 200;
+    public int lifePoints;
 
+    // attributes :
+    // public static String weaponBarbarian = "Sword";
+    // public static String weaponWizard = "Water_Flask";
+    // public static String[] monstersArray = new String["Barbarian","Wizard"];
+    // public static int lifePoints = 20;
+
+    // constructor
+    Hero(){
+        lifePoints = 20;
+    }
+
+    //method
+    public void looseLifePoints(int){
+        lifePoints -= damagePoints;
+    }
 
     // Behaviour :
     public static void moveForward() {
-        // if Barbarian dies || Wizard dies
+        // if Barbarian dies | Wizard dies
         // Hero moves Forward in the next room
         System.out.println();
     }
@@ -43,5 +52,6 @@ public class Hero {
             System.out.println("You're dead");}
             // and return to the Menu
     }
+
 
 }

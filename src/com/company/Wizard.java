@@ -5,9 +5,9 @@ public class Wizard {
     // attributes :
     public static String name = "Wizard"
     public static String weapon = "Thunderbolt";
-    public static int lifePoints = 200;
-    public static int damagePoints = 200;
-    public static int attackPoints = 200;
+    public static int lifePoints = 20;
+    public static int damagePoints = 20;
+    public static int attackPoints = 20;
 
     // behaviour :
     public static void attackFirst() {

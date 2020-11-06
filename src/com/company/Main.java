@@ -1,17 +1,19 @@
 package com.company;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
-    public static boolean keepPlaying = true;
+   public static boolean keepPlaying = true;
+
 
    public static void main(String[] args) {
+
         displayMenu();
+
    }
 
-       private static void displayMenu(){
+       public static void displayMenu(){
 
        while (keepPlaying) {
            System.out.println("Please select one option below");
@@ -29,13 +31,7 @@ public class Main {
                System.out.println("Sorry I did not understand your choice");
            }
            System.out.println("Thank you for playing the game, see you soon");
-
-
         }
-
-
-
-
 
    }
 
