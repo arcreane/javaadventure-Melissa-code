@@ -9,6 +9,9 @@ public class Room {
     }
 
     public void go(Hero hero){
-        monster.attack(hero);
+        while (hero.isAlive() && Monster.isAlive()) {
+            monster.attack(hero);// hero: paramètre
+            hero.attack(monster); // monster : variable
+        }
     }
 }

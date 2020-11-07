@@ -2,7 +2,9 @@ package com.company;
 
 public class Hero {
 
-    public int lifePoints;
+    int lifePoints;
+    Weapon sword;
+    Weapon waterFlask;
 
     // constructor
     Hero(){
@@ -12,6 +14,19 @@ public class Hero {
     //method
     public void looseLifePoints(int damagePoints){
         lifePoints -= damagePoints;
+        if (lifePoints < 0) {
+            System.out.println("You're dead.");
+        } else {
+            System.out.println("You have suffered " + damagePoints+ ", You have now " + lifePoints +" life points.");
+        }
+    }
+
+    public boolean isAlive() {
+        return lifePoints > 0;
+    }
+
+    public boolean attack(Monster monster) {
+        return monster.inflictDamage(sword.damagePoints);
     }
 
     /*

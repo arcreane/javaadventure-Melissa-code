@@ -9,13 +9,14 @@ public class Main {
    public static void main(String[] args) {
         //displayMenu();
 
+       // The Game :
        Hero hero = new Hero();
        Dungeon dungeon = new Dungeon();
        dungeon.welcome(hero); // method in Dungeon
 
        }
-
    }
+
    /*
        public static void displayMenu(){
 
